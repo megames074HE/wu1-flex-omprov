@@ -23,5 +23,41 @@ body {
     
 }
 
+.side-nav a {
+    text-decoration: none;
+    color: blue;
+}
 
+.index-main {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
+.cta-contact-button {
+    background-color: gray;
+    border-radius: 2px;
+    padding: 6px;
+    border-color: black;
+
+}
+
+.cta-contact-button a {
+    color: black;
+    text-decoration: none;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 1rem;
+    
+}
+
+.card {
+    list-style: none;
+    padding: 8px 16px;
+    border: 2px solid #F0F0F0;
+}
